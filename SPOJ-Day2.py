@@ -70,3 +70,24 @@ print(finalResult)
 
 
 
+
+
+
+# TOPSES - Sezamie, otwórz się!
+
+
+firstChain = list(input("firstChain: "))
+secondChain = list(input("secondChain: "))
+result = 'no'
+
+for i in range(len(firstChain)):
+  if(firstChain == secondChain):
+    result = 'yes'
+    break;
+
+  secondChain.insert(0,secondChain.pop())
+
+print(result)
+
+
+
