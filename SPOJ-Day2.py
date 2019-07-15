@@ -43,3 +43,30 @@ for i in range(len(text)- patternLen +1):
     indexes.append(i)  
 
 print(indexes)
+
+
+
+
+
+
+# OSTSIL - Ostania niezerowa cyfra silni
+
+def factorial(n):
+  result = 1
+  for i in range(1,n+1):
+    result*=i
+  return result
+
+number = str(factorial(int(input("Enter a number: ")))) [::-1]
+
+for c in number:
+  if c != '0':
+    finalResult = c
+    break;
+
+print(finalResult)
+
+
+
+
+
